@@ -1,0 +1,9 @@
+.container{
+    background-color: aqua;
+    height: 50vh;
+    width: 50vw;
+    color: brown;
+    display: flex;
+    justify-content: space-around;
+
+}

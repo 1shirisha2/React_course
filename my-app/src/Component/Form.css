@@ -1,0 +1,11 @@
+.Index{
+    background-color: blue;
+    height:100vh ;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  
+}
