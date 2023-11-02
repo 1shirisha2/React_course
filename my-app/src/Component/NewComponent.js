@@ -1,12 +1,14 @@
 import React from 'react'
 
-const NewComponent = (props) => {
+const NewComponent = (props)=> {
   return (
     <>
-   {/* <div>NewComponent</div> */}
-    <h1>{props.name}</h1>
-    <h1>{props.age}</h1>
-    
+    <h1>{props.name1}</h1>
+    <h1>{props.age1}</h1>
+    <h1>{props.name2}</h1>
+    <h1>{props.age2}</h1>
     </>
   )
 }
+
+export default NewComponent;
