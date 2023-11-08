@@ -1,16 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Form from './Component/Form';
-import Head from './Component/Head';
+// import Form from './Component/Form';
+// import Head from './Component/Head';
+// import Greet from './Greet';
+import Form from './Form';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Form/> */}
+    {/* <Head/> */}
     <Form/>
-    <Head/>
+    {/* <Greet/> */}
   </React.StrictMode>
 );
 
