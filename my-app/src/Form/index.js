@@ -49,9 +49,9 @@ const Form = (props)=> {
 
 
   return (
-    <div className="form-container">
-      <form>
-        <div className="form-group">
+    <div className='container'>
+      <form className="form-container">
+        <div>
           <label>First Name</label>
           <input type="text"
           name="fname"
@@ -68,14 +68,14 @@ const Form = (props)=> {
         <div className='form-group'>
           <label>Email</label>
           <input type="text"
-          name="Email"
+          name="email"
           value={email}
           onChange={handleInputChange}/>
         </div>
         <div className='form-group'>
           <label>Age</label>
           <input type="text"
-          name="Age"
+          name="age"
           value={age}
           onChange={handleInputChange}/>
           
@@ -83,15 +83,15 @@ const Form = (props)=> {
         <div className='form-group'>
           <label>Phno</label>
           <input type='text'
-          name="Phno"
+          name="phno"
           value={phno}
           onChange={handleInputChange}/>
         </div>
         <div className='form-group'>
           <label>Gender</label>
           <input type="text"
-          name="Gender"
-          value=""
+          name="gender"
+          value={gender}
           onChange={handleInputChange}/>
         </div>
         <div>

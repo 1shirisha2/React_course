@@ -1,0 +1,37 @@
+
+  .container{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form{
+    background-color: rgb(234, 242, 250);
+  
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+   
+} 
+  .button{
+    background-color: green;
+    color:#fff;
+    padding:10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100px;
+   
+   
+
+}
+
+
+.input{
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+
